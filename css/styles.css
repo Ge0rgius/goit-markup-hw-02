@@ -1,0 +1,63 @@
+:root {
+  /* Fonts */
+  --main-font-family: 'Roboto', sans-serif;
+  --logo-font-family: 'Raleway', sans-serif;
+
+  /* Colors */
+  --main-grey-color: #757575;
+  --main-blue-color: #2196f3;
+  --main-light-color: #fff;
+  --main-color: #212121;
+  --secondary-color-transparency: #ffffff99;
+
+  --border-color: #c4c4c4;
+  --badge-bg-color: #eeeeee;
+  --badge-color: #546269;
+}
+
+body {
+  font-family: var(--main-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+
+  color: var(--main-color);
+}
+
+/* Common Styles */
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-family: inherit;
+  color: inherit;
+
+  padding: 0;
+}
+
+.list {
+  list-style: none;
+
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Семантичне скриття елементів */
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
