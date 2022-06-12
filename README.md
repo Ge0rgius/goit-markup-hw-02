@@ -1,2 +1,2 @@
 # goit-markup-hw-02
-HW2 for GoIT
+Second homework in [GoIT](https://goit.ua/?lang=uk) test drive course.
